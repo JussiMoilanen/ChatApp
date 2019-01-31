@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Chat Application</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-light bg-light">
+        <span font="white" class="navbar-brand mb-0 h1">Chat App</span>
+      </nav>
+    </header>
+          <br />
+    <section>
+      <div id="changeUsername">
+      	<input id="username" type="text" placeholder="Change username"/>
+      	<button id="send_username" type="button">Change</button>
+    </section>
+    <br />
+    <section id="chatroom">
+      <section id="feedback"></section>
+    </section>
+
+
+    <section id="input_zone">
+      <input id="message" class="vertical-align" type="text" placeholder="Write something..." />
+      <button id="sendMessage" class="vertical-align" type="button">Send</button>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>

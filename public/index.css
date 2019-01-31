@@ -1,0 +1,61 @@
+
+.navbar-brand {
+    font-size: 35px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+
+input#username {
+    font-family: 'Arial',;
+    width: 30%;
+}
+
+input#message {
+    display: inline-block;
+    width: 80%;
+    height: 70%;
+    font-family: 'Arial',;
+    font-size: 2vh;
+}
+section#input_zone{
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  border: 1px inset black;
+
+}
+header#header{
+    border: 1px inset black;
+}
+
+button#sendMessage {
+    display: inline-block;
+    height: 75%;
+    width: 15%;
+}
+button#send_username {
+    display: inline-block;
+    height: 50%;
+    width: 30%;
+}
+section#chatroom {
+    border: 1px inset black;
+    height: 85%;
+    overflow: auto;
+}
+p.message {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 2vh;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 1vh;
+}
+.message:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.message:nth-child(odd) {
+    background-color: #F3F3F3;
+}
